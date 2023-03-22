@@ -5,6 +5,6 @@
     <title>JSP</title>
 </head>
 <body>
-    <h1><% out.print("Bem vindo!!!") %></h1>
+    <h1><% out.print("Bem vindo!!!"); %></h1>
 </body>
 </html>
