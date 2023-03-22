@@ -7,7 +7,7 @@
 <body>
     <h1><%
          String nome = request.getParameter("nome");
-         out.print("Bem vindo" + nome + "!!!"); 
+         out.print("Bem vindo " + nome + "!!!"); 
          
          %></h1>
 </body>
