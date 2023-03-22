@@ -5,6 +5,10 @@
     <title>JSP</title>
 </head>
 <body>
-    <h1><% out.print("Bem vindo!!!"); %></h1>
+    <h1><%
+         String nome = request.getParameter("nome");
+         out.print("Bem vindo" + nome + "!!!"); 
+         
+         %></h1>
 </body>
 </html>
